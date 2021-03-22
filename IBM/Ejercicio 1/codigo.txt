@@ -1,0 +1,12 @@
+def palindromo(i):
+    reverso = ''.join(reversed(i))
+    if reverso == i:
+        return True
+    return False 
+
+#Para realizar prueba, sustituir 'admirar' por palindromos (reconocer, sometemos)
+respuesta = palindromo('admirar')
+if respuesta == True:
+    print('Es palindromo')
+else: 
+    print('No es palindromo')

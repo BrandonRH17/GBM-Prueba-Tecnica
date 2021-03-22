@@ -1,0 +1,21 @@
+
+def suma(x):
+    return int((x * (x+1) / 2))
+
+def numSaltos(i): 
+    saltos = 0
+
+    i = abs(i)
+    while ((suma(saltos) < i) or
+    (suma(saltos) - i) & 1):
+        saltos = saltos + 1
+    
+    return saltos
+y = int(input('Introduzca el numero: '))
+print(numSaltos(y))
+
+input:
+8
+
+output: 
+4

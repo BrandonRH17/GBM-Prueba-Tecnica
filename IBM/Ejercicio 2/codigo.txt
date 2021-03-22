@@ -1,0 +1,3 @@
+def ranking(x,y,z):
+    lista = []
+    for i in range(0, len(z)):

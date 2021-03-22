@@ -1,0 +1,8 @@
+Estas parado en el eje X en el punto 0 y deseas moverte a un punto entero mayor que 0. 
+Puedes hacer varios saltos. Supone que actualmente estas ubicado en el punto y (este punto
+puede ser negativo) y saltas por la k-ava vez. 
+Puedes: 
+	-Saltar al punto y + k o
+	-Saltar al punto y - 1
+
+¿Cuál es el número minimo de saltos que puedes hacer para alcanzar el punto x?
